@@ -7,9 +7,9 @@ import org.springframework.web.bind.annotation.GetMapping;
 public class UserController {
 
 
-    @GetMapping("/home")
-public String getUser(){
-    return "home";
-}
+    @GetMapping("/sweet-home")
+    public String home(){
+        return "home";
+    }
 
 }
